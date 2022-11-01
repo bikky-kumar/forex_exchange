@@ -1,1 +1,0 @@
-1. Using flask to create this mvp, as it is fast and heas less weight
