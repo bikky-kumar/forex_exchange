@@ -1,0 +1,5 @@
+ID,Currency1,Currency2,SrcAmount
+1,USD,EUR,1000
+2,EUR,AUD,2050.5
+3,EUR,AUD,2051.5
+4,EUR,INR,2052.5
