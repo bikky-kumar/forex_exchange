@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Process Transaction{% endblock %}
+{% block content %}
+
+<form action = "/processForeignExchange.html" class = "transaction-upload-form" enctype = "multipart/form-data" name = "transactionfile" method = "post">
+    <div class="mb-3">
+        <input name="file1" class="form-control" id="file1" type="file" >
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% endblock %}

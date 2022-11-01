@@ -1,0 +1,109 @@
+body{
+    font-family: 'Hind', sans-serif;
+}
+
+.form-control{
+    width: 50%;
+    padding-bottom: 36px;
+    background-color: transparent;
+}
+
+.mb-3{
+    border-radius: 10px;
+    padding: 10px;
+    background: #ccd7da;
+}
+
+.transaction-upload-form{
+    margin:10px;
+}
+
+.display-3 {
+    color: rgba(51, 51, 51, 0.5);
+    align-self: end;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.transaction-upload-form{
+    text-align: center;
+}
+
+.navbar-collapse{
+    direction: rtl;
+}
+
+.headline{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Dinnextltpro, sans-serif;
+    color: #011454;
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    padding: 12px 32px;
+    border-radius: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-family: 'Hind', sans-serif;
+}
+
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+
+
+dataframe.forex_table {
+    border: none;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+}
+
+
+.dataframe.forex_table thead tr {
+    background-color: #028aff;
+    color: #ffffff;
+    text-align: center !important;
+}
+
+.dataframe.forex_table th,
+.dataframe.forex_table td {
+    padding: 12px 15px;
+}
+
+.dataframe.forex_table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dataframe.forex_table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.dataframe.forex_table tbody tr:last-of-type {
+    border-bottom: 2px solid #028aff;
+}
+
+.dataframe.forex_table tbody tr.active-row {
+    font-weight: bold;
+    color: #028aff;
+}
