@@ -2,7 +2,7 @@
 {% block title %}Success{% endblock %}
 {% block content %}
 <div class="headline">
-
+    <span>  {{"{:,.0f}".format(result)}} : transactions in records</span>
 </div>
 
 {{ data | safe}}
