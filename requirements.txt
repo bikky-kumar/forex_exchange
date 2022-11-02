@@ -4,3 +4,4 @@ numpy>=1
 pandas>=1
 requests>=2
 setuptools>=59
+gunicorn==19.3.0
