@@ -3,4 +3,4 @@ flask_sqlalchemy>=2.5
 numpy>=1
 pandas>=1
 requests>=2
-setuptools>=65
+setuptools>=59
