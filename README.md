@@ -13,3 +13,12 @@ If you are getting API error, please replace the API_KEY variable with API_KEY =
 
 
 
+Solution: 
+from Process File Page: 
+from csv file unique combination of currency exchange is collected and current market rates are fetched using the 3rd- party API. 
+rate fetched are used to calculate the conversion amount, data from csv file is converted to numpy array for faster computation.
+The converted data is displayed and populated to the sqlite data base using bulk upload. 
+
+On History page all the past transaction can be visulaised in a tabular format. 
+
+
