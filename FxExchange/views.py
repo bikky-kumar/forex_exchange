@@ -41,7 +41,7 @@ def view_transaction():
         data.append(result.converted_amount) 
         data_list.append(data)
     df = pd.DataFrame(data_list, columns = ['From Currency','To Currency', "Current Amount","Current Rate",  "timestamp", "Converted Amount"])
-    return render_template("view_transaction.html", data=df.to_html(classes='forex_table', header=True, index=False))
+    return render_template("view_transaction.html", data=df.to_html(classes='forex_table', header=True, index=False), result = len(data_list))
     
 
     
